@@ -1,0 +1,5 @@
+module Rake
+  module Phptools
+    VERSION = "0.0.1"
+  end
+end
