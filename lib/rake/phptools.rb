@@ -1,2 +1,7 @@
-load File.expand_path('../tasks/lint.rake', __FILE__)
-load File.expand_path('../tasks/phpunit.rake', __FILE__)
+module PhpTools
+
+  def load
+    Dir.glob(File.join("..", "tasks", "*.rake") { |file| load File.expand_path(file, __FILE__) } 
+  end
+
+end
