@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["y.karamani@gmail.com"]
   spec.summary       = %q{Rake tasks for php-developers.}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/karamani/rake-phptools"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

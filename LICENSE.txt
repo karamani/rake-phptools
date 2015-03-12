@@ -1,4 +1,4 @@
-Copyright (c) 2015 y2k
+Copyright (c) 2015 Yuri Karamani
 
 MIT License
 
