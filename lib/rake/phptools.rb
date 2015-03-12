@@ -1,7 +1,1 @@
-module PhpTools
-
-  def load
-    Dir.glob(File.join("..", "tasks", "*.rake") { |file| load File.expand_path(file, __FILE__) } 
-  end
-
-end
+Dir.glob(File.join(File.expand_path("tasks", File.dirname(__FILE__)), "*.rake")) { |file| load file }
